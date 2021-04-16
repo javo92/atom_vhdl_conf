@@ -1,0 +1,5 @@
+'atom-text-editor':
+  'shift-delete': 'editor:delete-line'
+
+'atom-text-editor:not([mini])':
+  'shift-delete': 'editor:delete-line'

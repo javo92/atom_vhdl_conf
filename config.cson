@@ -1,0 +1,67 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "da34b0ff-05bf-440c-b1f6-17cde12e387c"
+    vhdl: {}
+  "atom-clock":
+    locale: "es"
+    showOnlyInFullscreen: true
+  "atom-material-ui":
+    colors:
+      predefinedColor: "Blue Grey"
+  "atom-terminal":
+    surpressDirectoryArgument: false
+  "autocomplete-plus":
+    confirmCompletion: "tab always, enter when suggestion explicitly selected"
+  "clean-context-menu":
+    zOthers:
+      hide: '''
+        atom-beautify:help-debug-editor, atom-beautify:beautify-editor, minimap:toggle
+        , encoding-selector:show
+      '''
+  core:
+    customFileTypes:
+      "source.tcl": [
+        "xdc"
+      ]
+    disabledPackages: [
+      "teletype"
+      "git-plus"
+      "console-panel"
+    ]
+    packagesWithKeymapsDisabled: [
+      "TerosHDL"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    fontSize: 15
+    showInvisibles: true
+  "exception-reporting":
+    userId: "9f55fe68-81f3-4f67-8fd7-33cd00d49fff"
+  "file-watcher":
+    promptWhenChange: true
+  kite:
+    showWelcomeNotificationOnStartup: false
+  "linter-ui-default":
+    panelHeight: 300
+  minimap:
+    plugins:
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
+      selection: true
+      selectionDecorationsZIndex: 0
+      "split-diff": true
+      "split-diffDecorationsZIndex": 0
+  "platformio-ide-terminal":
+    core:
+      mapTerminalsTo: "Folder"
+  "split-diff":
+    ignoreWhitespace: true
+  "tool-bar":
+    visible: false
+  welcome:
+    showOnStartup: false
